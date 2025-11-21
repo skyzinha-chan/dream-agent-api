@@ -82,7 +82,17 @@ Execute no seu terminal:
 ollama run llama3.2
 # 3. Mantenha o serviço do Ollama rodando em segundo plano.
 ```
+## 🎨 Interface Gráfica (Front-end)
 
+Além da API, o projeto inclui uma interface de chat interativa desenvolvida com **Streamlit**.
+
+Para rodar a interface:
+1. Mantenha a API rodando em um terminal (`uvicorn app.main:app`).
+2. Em um novo terminal, execute:
+   ```bash
+   streamlit run app/frontend.py
+   ```
+   
 ## 🛠️ Instalação e Execução
 
 1. Clone o repositório (ou extraia os arquivos)

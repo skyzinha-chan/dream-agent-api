@@ -5,6 +5,7 @@ python-dotenv
 requests
 strands-agents
 
+streamlit
 # Para iniciar, certifique-se de criar e ativar o ambiente virtual (venv) no terminal primeiro.
 
 # No terminal, navegue até o diretório do projeto e execute:
