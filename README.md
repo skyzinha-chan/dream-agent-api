@@ -139,3 +139,20 @@ curl -X POST "http://localhost:8000/chat" \
      -H "Content-Type: application/json" \
      -d '{"message": "Quanto é 1234 * 5678?"}'
 ```
+
+## 🔮 Roadmap e Melhorias Futuras
+
+Se este projeto fosse para produção em larga escala na DreamSquad, estas seriam as próximas etapas de evolução que eu implementaria:
+
+1.  **Containerização (Docker):**
+    * Criar um `Dockerfile` para garantir que a aplicação rode igual em qualquer máquina ou servidor.
+    
+2.  **Deploy em Nuvem (AWS):**
+    * Como a aplicação é Stateless, seria ideal hospedá-la na **AWS** usando **ECS (Elastic Container Service)** ou **App Runner**.
+    * Para o modelo de IA, poderíamos migrar do Ollama local para o **Amazon Bedrock**, aproveitando a infraestrutura gerenciada de IA da AWS.
+
+3.  **Implementação de RAG (Retrieval-Augmented Generation):**
+    * Expandir as capacidades do Agente para consultar bases de dados internas (ex: PDFs ou Manuais da empresa) antes de responder, conectando o Agente a um Banco Vetorial (como FAISS ou Pinecone).
+
+4.  **Testes Automatizados:**
+    * Implementar testes unitários com `pytest` para garantir a estabilidade das Tools e da API.
