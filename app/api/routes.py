@@ -23,4 +23,3 @@ async def chat_endpoint(request: ChatRequest):
         # Se der erro, retorna código 500 (Erro Interno)
         print(f"❌ Erro no processamento: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-# Nota: Lembre-se de registrar esta rota no main.py para que fique ativa!

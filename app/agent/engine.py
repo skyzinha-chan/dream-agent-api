@@ -1,7 +1,3 @@
-# Se a biblioteca strands_agents não for encontrada, me avise!
-# Estou usando uma estrutura genérica compatível com requests/ollama para garantir funcionalidade
-# caso o SDK tenha sintaxe específica que não conhecemos.
-
 import requests
 import json
 from app.core.config import settings
@@ -53,7 +49,7 @@ class DreamAgent:
             expression = response_text.split("CALC:")[1].strip()
             print(f"🧮 Agente solicitou cálculo: {expression}")
 
-            # Usa a Tool que criamos na Etapa 3
+            # Executa a ferramenta de cálculo identificada
             result = calculate_tool(expression)
 
             # 3. Devolve o resultado para a IA formular a resposta final

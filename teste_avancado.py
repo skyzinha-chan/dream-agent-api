@@ -21,7 +21,7 @@ def testar_calculadora():
         # 5. Mistura de operações
         "Quanto é 100 * 2 + 50?",
 
-        # 6. Raiz Quadrada (já testamos, mas vale reforçar)
+        # 6. Raiz Quadrada 
         "Qual a raiz quadrada de 81?"
     ]
 

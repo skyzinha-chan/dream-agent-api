@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from app.core.config import settings
 from app.api.routes import router as api_router
 
-# --- CONFIGURAÇÃO DE LOGS (Técnica de Sênior) ---
+# --- CONFIGURAÇÃO DE LOGS ---
 # Isso configura para que os prints tenham data, hora e nível de severidade.
 logging.basicConfig(
     level=logging.INFO,
