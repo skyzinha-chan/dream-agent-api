@@ -1,0 +1,13 @@
+# Ignorar ambiente virtual
+venv/
+__pycache__/
+*.pyc
+
+# Ignorar variáveis de ambiente (SEGURANÇA)
+.env
+
+# Ignorar arquivos do sistema/IDE
+.vscode/
+.idea/
+*.log
+.DS_Store

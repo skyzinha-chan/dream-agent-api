@@ -1,0 +1,17 @@
+# Este arquivo lista as dependências do projeto
+fastapi
+uvicorn
+python-dotenv
+requests
+strands-agents
+
+# Para iniciar, certifique-se de criar e ativar o ambiente virtual (venv) no terminal primeiro.
+
+# No terminal, navegue até o diretório do projeto e execute:
+# python -m venv venv
+
+# No Git Bash ou PowerShell:
+# source venv/Scripts/activate
+
+# Com o ambiente virtual ativado, instale as dependências com o comando:
+# pip install -r requirements.txt
